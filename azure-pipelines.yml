@@ -1,0 +1,29 @@
+# UiPath template pipeline
+
+variables:
+  System.Debug: true
+
+trigger:
+  branches:
+    include:
+    - master
+  paths:
+    include:
+    - /AzureCICD_UiBank/*
+
+pool:
+  name: Default
+  
+stages:
+  - template: ../.pipelines/templates/uipath.build.deploy.yml
+    parameters: 
+      # The name of the UiPath Project
+      ProjectName: AzureCICD_UiBank
+      # The type of UiPath Project: "Process" or "Library"
+      ProjectType: Process
+      # Name of the service connection for the Development Orchestrator
+      DevOrchConnection: "TestOrch2"
+      # Name of the folder where the project is to be deployed in the Development Orchestrator
+      DevOrchFolder: "Shared"
+      # Name of the Devops environment for deployment to development
+      DevEnvironment: "DevEnv"
