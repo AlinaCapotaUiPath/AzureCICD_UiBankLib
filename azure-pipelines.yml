@@ -9,7 +9,7 @@ trigger:
     - master
   paths:
     include:
-    - /UiBankLib/*
+    - /AzureCICD_UiBankLib/*
 
 pool:
   name: Default
