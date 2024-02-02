@@ -1,0 +1,14 @@
+﻿{
+  "Id": "gcThtQg210KihIooHrsg4A",
+  "Reference": "vGsladybMUqxYaqrSDfKjQ/gcThtQg210KihIooHrsg4A",
+  "ParentRef": "vGsladybMUqxYaqrSDfKjQ/XyFYVOJCX0-vlNdyxufaNg",
+  "Name": "Congrats",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-02-02T23:49:49.0961824Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.4.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=23.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-02-02T23:49:49.0961824Z"
+}
