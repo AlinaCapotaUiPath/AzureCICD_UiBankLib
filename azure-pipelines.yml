@@ -9,7 +9,7 @@ trigger:
     - master
   paths:
     include:
-    - /AzureCICD_UiBank/*
+    - /UiBankLib/*
 
 pool:
   name: Default
@@ -18,9 +18,9 @@ stages:
   - template: ../.pipelines/templates/uipath.build.deploy.yml
     parameters: 
       # The name of the UiPath Project
-      ProjectName: AzureCICD_UiBank
+      ProjectName: UiBankLib
       # The type of UiPath Project: "Process" or "Library"
-      ProjectType: Process
+      ProjectType: Library
       # Name of the service connection for the Development Orchestrator
       DevOrchConnection: "TestOrch2"
       # Name of the folder where the project is to be deployed in the Development Orchestrator
