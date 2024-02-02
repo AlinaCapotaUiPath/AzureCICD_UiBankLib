@@ -1,0 +1,14 @@
+﻿{
+  "Id": "KDthw6zXEk-m7LnEzUfSkw",
+  "Reference": "vGsladybMUqxYaqrSDfKjQ/KDthw6zXEk-m7LnEzUfSkw",
+  "ParentRef": "vGsladybMUqxYaqrSDfKjQ/B9piavPvtUqyY2yIZWqL_A",
+  "Name": "Loan Term",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2024-02-02T22:11:08.3962972Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.4.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-02-02T22:11:08.3962972Z"
+}

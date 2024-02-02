@@ -1,0 +1,14 @@
+﻿{
+  "Id": "B9piavPvtUqyY2yIZWqL_A",
+  "Reference": "vGsladybMUqxYaqrSDfKjQ/B9piavPvtUqyY2yIZWqL_A",
+  "ParentRef": "vGsladybMUqxYaqrSDfKjQ/rt0ZrAOlzEWmNos64MPwwA",
+  "Name": "LoanApplication",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2024-02-02T22:10:30.9660684Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.4.3.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2024-02-02T22:10:30.9660684Z"
+}

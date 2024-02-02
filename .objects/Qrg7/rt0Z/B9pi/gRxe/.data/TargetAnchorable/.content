@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://uibank.uipath.com/loans/apply" ContentHash="NGfLUYMUSk6l6mbDlHdpBg" DesignTimeRectangle="641, 389, 636, 68" ElementType="InputBox" FriendlyName="'EmailAddress'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='email' aaname='' /&gt;" Reference="vGsladybMUqxYaqrSDfKjQ/qrYABMCxmUKAuia-Iu6jzw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="641, 365, 190, 24" ElementType="Text" FriendlyName="'EmailAddress'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' aaname='Email Address of Requester' check:text='Email Address of Requester' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1otDyytT010-JZQoqfu4C3g</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0xZh5cT-1m0ar17v2Il3eDQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2a6b366352a7736cb548b25a110b15a1.png" xmlns="">04cZKLuQCt0GM6o6N3J8dsQ</imageRef>
+</TargetAnchorable>
