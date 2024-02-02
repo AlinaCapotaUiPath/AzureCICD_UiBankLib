@@ -15,7 +15,7 @@ pool:
   name: Default
   
 stages:
-  - template: ../.pipelines/templates/uipath.build.deploy.yml
+  - template: .pipelines/templates/uipath.build.deploy.yml
     parameters: 
       # The name of the UiPath Project
       ProjectName: UiBankLib
