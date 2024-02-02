@@ -1,0 +1,19 @@
+parameters:
+  ProjectName: ''
+  OrchConnection: ''
+  OrchFolder: ''
+  
+jobs:
+  - job: TestPackage
+    displayName: "Test package"
+    steps:
+      - checkout: none
+      - task: UiPathTest@2
+        displayName: "Test Package"
+        continueOnError: true
+        inputs:
+          orchestratorConnection: ${{ parameters.OrchConnection }}
+          testTarget: TestTarget
+          testProjectPath: ${{ parameters.ProjectName }}
+          folderName: ${{ parameters.OrchFolder }}
+          traceLevel: Verbose

@@ -1,0 +1,25 @@
+parameters:
+  ProjectName: ''
+  OrchConnection: ''
+  OrchFolder: ''
+  DeployEnv: 'deploy-dev-orchestrator'
+  
+jobs:
+  - deployment: DeployArtifact
+    displayName: "Deploy artifact to Orchestrator"
+    environment: ${{ parameters.DeployEnv }}
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+            - task: UiPathDeploy@2
+              displayName: "Deploy Package"
+              inputs:
+                orchestratorConnection: ${{ parameters.OrchConnection }}
+                packagesPath: $(Pipeline.Workspace)/${{ parameters.ProjectName }}
+                folderName: ${{ parameters.OrchFolder }}
+            - task: DeleteFiles@1
+              displayName: "Post-deploy cleanup"
+              inputs:
+                Contents: $(Pipeline.Workspace)/${{ parameters.ProjectName }}
+

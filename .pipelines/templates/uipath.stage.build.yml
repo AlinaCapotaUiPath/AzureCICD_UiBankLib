@@ -1,0 +1,58 @@
+parameters:
+  ProjectName: ''
+  ProjectType: ''
+  OrchConnection: ''
+
+jobs:
+  - job: CleanUp
+    displayName: "Pre-run clean up"
+    steps:
+      - checkout: none
+      - task: DeleteFiles@1
+        displayName: "CleanUp Packages"
+        inputs:
+          SourceFolder: $(Pipeline.Workspace)
+          Contents: |
+            **/*.nupkg
+      - task: UiPathInstallPlatform@2
+        displayName: 'Install platform to cache internal tool'
+  - job: GetMajorMinorVersion
+    displayName: "Extract version"
+    dependsOn: CleanUp
+    steps:
+      - powershell: |
+         $json = Get-Content "${{ parameters.ProjectName }}/project.json"` -Raw | ConvertFrom-Json
+         $versionPrefix = $json.projectVersion | Select-String '\d{1,3}\.\d{1,3}' | ForEach-Object {
+               $_.Matches[0].Value
+            }
+         Write-Output ("##vso[task.setvariable variable=VersionPrefix;isOutput=true]$versionPrefix")
+        name: VersionDetails
+  - job: Build
+    displayName: "Build via pack task"
+    dependsOn: GetMajorMinorVersion
+    variables:
+      VersionPrefix: $[ dependencies.GetMajorMinorVersion.outputs['VersionDetails.VersionPrefix'] ]
+      Revision: $[counter(variables.VersionPrefix, 1)]
+      PackageVersion: $[format('{0}.{1}', variables.VersionPrefix, variables.Revision)]
+    steps:
+      # no checkout since we have the same agent machine
+      - checkout: none
+      # Run workflow analysis via powershell script. 
+      # This will not be needed if the UiPathPack@2 task below has runWorkflowAnalysis: 'True'
+      - powershell: Write-Output ("##vso[build.updatebuildnumber]${{ parameters.ProjectName }}.$(PackageVersion)")
+        displayName: Update Build Name
+      - task: UiPathPack@2
+        displayName: UiPath Pack Process
+        inputs:
+          versionType: ManualVersion
+          version: $(PackageVersion)
+          projectJsonPath: ${{ parameters.ProjectName }}/project.json
+          outputPath: $(Build.ArtifactStagingDirectory)/Packages
+          orchestratorConnection: ${{ parameters.OrchConnection }}
+          outputType: ${{ parameters.ProjectType }}
+          runWorkflowAnalysis: 'False'
+      - task: PublishPipelineArtifact@1
+        displayName: Publish Pipeline Artifact
+        inputs:
+          path: $(Build.ArtifactStagingDirectory)/Packages
+          artifactName: ${{ parameters.ProjectName }}

@@ -1,0 +1,41 @@
+parameters:
+  # The name of the UiPath Project
+  ProjectName: ''
+  # The type of UiPath Project: "Process" or "Library"
+  ProjectType: Process
+  # Name of the service connection for the Development Orchestrator
+  DevOrchConnection: ''
+  # Name of the folder where the project is to be deployed in the Development Orchestrator
+  DevOrchFolder: ''
+  # Name of the Devops environment for deployment to development
+  DevEnvironment: 'DevEnv'
+
+stages:
+  - stage: Build
+    displayName: "Build NuGet and publish artifact"
+    jobs:
+      - template: uipath.stage.build.yml
+        parameters: 
+          ProjectName: ${{ parameters.ProjectName }}
+          ProjectType: ${{ parameters.ProjectType }}
+          OrchConnection: ${{ parameters.DevOrchConnection }}
+  - stage: Test
+    displayName: "Test in Dev Orch"
+    dependsOn: Build
+    jobs:
+      - template: uipath.stage.test.yml
+        parameters: 
+          ProjectName: ${{ parameters.ProjectName }}
+          OrchConnection: ${{ parameters.DevOrchConnection }}
+          OrchFolder: ${{ parameters.DevOrchFolder }}
+  - stage: DeployDev
+    displayName: "Deploy to Dev Orch"
+    dependsOn: Test
+    jobs:
+      - template: uipath.stage.deploy.yml
+        parameters: 
+          ProjectName: ${{ parameters.ProjectName }}
+          OrchConnection: ${{ parameters.DevOrchConnection }}
+          OrchFolder: ${{ parameters.DevOrchFolder }}
+          DeployEnv: ${{ parameters.DevEnvironment }}
+
