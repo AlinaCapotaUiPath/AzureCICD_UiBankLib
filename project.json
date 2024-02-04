@@ -4,8 +4,6 @@
   "description": "Library",
   "main": "NewActivity.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "2.10.4",
-    "UiPath.Mail.Activities": "1.10.4",
     "UiPath.System.Activities": "21.4.0",
     "UiPath.Testing.Activities": "23.12.0",
     "UiPath.UIAutomation.Activities": "21.4.3"
@@ -14,7 +12,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.4.3.0",
-  "projectVersion": "1.0.9",
+  "projectVersion": "1.0.160764430",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -47,6 +45,7 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "219a8122-68f0-42d3-bea4-4b51547d2fd7",
+        "dataVariationFilePath": ".variations\\TestData_Sheet1.json",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\ApplyLoanTestCase.xaml"
