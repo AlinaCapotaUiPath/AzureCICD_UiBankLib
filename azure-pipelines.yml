@@ -21,7 +21,6 @@ steps:
     testTarget: 'TestTarget'
     orchestratorConnection: 'TestOrch2'
     folderName: 'Shared'
-    testProjectPath: '$(Build.ArtifactStagingDirectory)\Output'
 - task: UiPathDeploy@2
   inputs:
     orchestratorConnection: 'TestOrch2'
