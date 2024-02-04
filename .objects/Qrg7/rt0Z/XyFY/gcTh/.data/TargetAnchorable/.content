@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://uibank.uipath.com/loans/result/65bd7f3ae79b2d005bf94a4f/8/true" ContentHash="9a2BEZJjqkm1p7-BqHpqqw" DesignTimeRectangle="376, 309, 1164, 72" FriendlyName="'Congrats!'" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' /&gt;" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
-  <imageRef attrName="InformativeScreenshot" originalValue="4e6c424db150a52e7a274b1ea06e145c.png" xmlns="">0nyeBavUnVUWzHrRFkGTh6w</imageRef>
+<TargetAnchorable BrowserURL="https://uibank.uipath.com/loans/result/65bd7f3ae79b2d005bf94a4f/8/true" ContentHash="g4Ojstu7GUiWMEtF-qReWA" DesignTimeRectangle="44, 446, 848, 72" FriendlyName="'Congrats!'" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' /&gt;" Reference="vGsladybMUqxYaqrSDfKjQ/gcThtQg210KihIooHrsg4A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;" SearchSteps="Selector, FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0rZ7cuvrIgE6X6E3K6keyUw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="341b21bab8a51ce18056ced22b6a4250.png" xmlns="">0YxxiVdV2rE-GRdzA6_8Gag</imageRef>
 </TargetAnchorable>
