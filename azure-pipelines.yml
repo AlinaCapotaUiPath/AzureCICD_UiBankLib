@@ -21,7 +21,7 @@ steps:
     testTarget: 'TestTarget'
     orchestratorConnection: 'TestOrch2'
     folderName: 'Shared'
-    testProjectPath: 'UiBankLib'
+    testProjectPath: '$(Build.ArtifactStagingDirectory)\Output'
 - task: UiPathDeploy@2
   inputs:
     orchestratorConnection: 'TestOrch2'
