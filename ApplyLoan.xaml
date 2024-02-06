@@ -11,7 +11,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1114.4,2494.4</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1114.4,2534.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -91,13 +91,13 @@
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ApplyLoan" sap:VirtualizedContainerService.HintSize="545.6,2429.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="ApplyLoans" sap:VirtualizedContainerService.HintSize="545.6,2469.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: UiBank" sap:VirtualizedContainerService.HintSize="483.2,1778.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="IfNotOpen" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: UiBank" sap:VirtualizedContainerService.HintSize="483.2,1818.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="IfNotOpen" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -144,7 +144,7 @@
               <uix:NSelectItem.Target>
                 <uix:TargetAnchorable BrowserURL="https://uibank.uipath.com/loans/apply" DesignTimeRectangle="641, 835, 636, 68" ElementType="DropDown" FriendlyName="'Select your loan term'" FullSelectorArgument="&lt;webctrl tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='number' aaname='' /&gt;" InformativeScreenshot="d410385bbc36e9a6d32bfd0437d9a76a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiBank' /&gt;" SearchSteps="FuzzySelector">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="641, 811, 73, 24" ElementType="Text" FriendlyName="'Loan Term'" FullSelectorArgument="&lt;webctrl aaname='Loan Term' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Loan Term' tag='LABEL' type='' check:text='Loan Term' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAE0AAAAcCAYAAAAk2zLiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAALrSURBVGhD7ZZBa2IxEMf9TPs9+gEWeu+pp+5J8NLD4kUPBdmLp22hCAVhEaTQHgpeqiCWIigFKVhBsIIIIrVJZv9j8jTv+VptWHUPefAHM2+SSX6ZN2Pi/fAbeX1NHpqDPDQHeWgO8tAc5KE5yENzkIfmoAU0WX8hGlRIWi/3Ldl5I5rGaM/7XEJrjokm1f8KmsgkSfxi3ZIiInVvxmdHJGL8d6XNoKXSpNrIxPlNj0k1iyRTYR+Ry5PqvGqfcYfUTZrEFQ7bLpoD5kh1Yf9jrTV5JVWBn7VOvIoa2t3qO/Eb77pB3JfIekHMJM63/JJkDbZanmSlhT0EZyqQPMGczPlyvSH8SseheKz10DLY1Aw7HrWwoTJUITXBeNYhmYn4TBDE9hkh+GJNfXCaIU77luR1QcPjp34ajrmieGjisqrndwGjkCN5/4D1eRxcVBATAEbYm7lA2TO24QMp7GMxr4fxBAAbSIprzO1ir/RGqngQirsW2ryusJ1vIbCfZDWUdk77POP3Rz5RaJ3zUGbJtlnfsq0qDlqS1AjGp3w4Uy8YJA56xWMT87kQjsnQpq3QfkUJWcdPw77AY1JD2HAJS9taaObgj2nLpjX3H7P/Jz6P9ppxB4fuOrAia23biuLmGiBPnNm2qvOs175mXiWcKXNovTAI7Yssu7Rt5pwR382g1ZOWTWvp/7GPqK9+nv8c2gCfHdetqKxMi8b8FNqFbXOCdkSqjwCR9J6n7UAHFoFPvxzxMfatQUORn8JYixTqdBYFHjUpx+O9QEO2FFEkuUbUsiS4BqROUYeQQVYAUeZ6gNrEHYi7Kvs04cPFdmvQsGfO5Bk6cNH8BeEu37dr8C6gRZ4gmCjpOrF4pmjtoVZ8QOIG4IR5zw+39wqAbBHa++F3kg10YDvuGAU+6OrbhraJxM8fJCL/z6ISGfjYXXQnwqWd7S7ul6B5aXloDvLQHOShOchDc5CH5iAPzUEemoMW0BKJhNdGStBfTVlHJbRAGXcAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>

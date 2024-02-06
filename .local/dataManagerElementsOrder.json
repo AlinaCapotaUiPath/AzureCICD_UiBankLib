@@ -30,7 +30,13 @@
       "VariablesSectionElementsOrder": [
         "Result&Sequence_1"
       ],
-      "ArgumentsSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "LoanTerm",
+        "YearlyIncome",
+        "LoanAmount",
+        "Age",
+        "Email"
+      ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
     }
