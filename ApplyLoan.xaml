@@ -91,7 +91,7 @@
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ApplyLoan" sap:VirtualizedContainerService.HintSize="545.6,2429.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="ApplyLoans" sap:VirtualizedContainerService.HintSize="545.6,2429.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
