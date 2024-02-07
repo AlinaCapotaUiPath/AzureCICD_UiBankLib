@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Su1MZRkjRnAATZtB2SOyQ26QA7S/Mm2Py1CGwpEu7dF00HTnCYPydvGbFXbTLU6mqEPEbNUzUOhsavYclg5roA==",
+  "dgSpecHash": "nT76+oGA0SMDSof8h01LAFb/unmggH0dABtKVJnXf7LErBvoWsXetCajq2cWWgAQVCzABmMrocsVzZtwPeyEYA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alina.Capota\\OneDrive - UiPath\\Documents\\UiPath\\UiBankLib\\.local\\",
   "expectedPackageFiles": [
@@ -55,109 +55,20 @@
     "C:\\Users\\Alina.Capota\\.nuget\\packages\\system.threading.tasks.dataflow\\5.0.0\\system.threading.tasks.dataflow.5.0.0.nupkg.sha512",
     "C:\\Users\\Alina.Capota\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Alina.Capota\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
-    "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath\\23.12.65.62182-alpha\\uipath.23.12.65.62182-alpha.nupkg.sha512",
+    "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath\\23.10.69.1489\\uipath.23.10.69.1489.nupkg.sha512",
     "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.6\\uipath.activities.runtimegovernance.1.1.6.nupkg.sha512",
     "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.imageprocessing\\23.4.0\\uipath.imageprocessing.23.4.0.nupkg.sha512",
-    "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.ocr.activities\\3.17.0-preview\\uipath.ocr.activities.3.17.0-preview.nupkg.sha512",
-    "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.ocr.contracts\\2.15.0-preview\\uipath.ocr.contracts.2.15.0-preview.nupkg.sha512",
+    "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.ocr.activities\\3.17.1\\uipath.ocr.activities.3.17.1.nupkg.sha512",
+    "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.ocr.contracts\\2.16.0\\uipath.ocr.contracts.2.16.0.nupkg.sha512",
     "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.platform\\23.10.0\\uipath.platform.23.10.0.nupkg.sha512",
     "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.system.activities\\23.12.0-preview\\uipath.system.activities.23.12.0-preview.nupkg.sha512",
     "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.system.activities.runtime\\23.12.0-preview\\uipath.system.activities.runtime.23.12.0-preview.nupkg.sha512",
     "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.system.activities.runtime.legacy\\23.12.0-preview\\uipath.system.activities.runtime.legacy.23.12.0-preview.nupkg.sha512",
     "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\uipath.telemetry.client.1.6.69.nupkg.sha512",
     "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.testing.activities\\23.12.0\\uipath.testing.activities.23.12.0.nupkg.sha512",
-    "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.uiautomation.activities\\23.12.2023250-dev.1237\\uipath.uiautomation.activities.23.12.2023250-dev.1237.nupkg.sha512",
-    "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.12.2023250-dev.1237\\uipath.uiautomation.activities.runtime.23.12.2023250-dev.1237.nupkg.sha512",
-    "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.vision\\3.11.0-preview\\uipath.vision.3.11.0-preview.nupkg.sha512"
+    "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.uiautomation.activities\\23.10.3\\uipath.uiautomation.activities.23.10.3.nupkg.sha512",
+    "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\23.10.3\\uipath.uiautomation.activities.runtime.23.10.3.nupkg.sha512",
+    "C:\\Users\\Alina.Capota\\.nuget\\packages\\uipath.vision\\3.11.1\\uipath.vision.3.11.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Alina.Capota\\OneDrive - UiPath\\Documents\\UiPath\\UiBankLib\\.local",
-      "message": "Failed to retrieve information about 'UiPath.UIAutomation.Activities' from remote source 'https://www.myget.org/F/TestAlinaFeed/api/v2/FindPackagesById()?id='UiPath.UIAutomation.Activities'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath.UIAutomation.Activities"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Alina.Capota\\OneDrive - UiPath\\Documents\\UiPath\\UiBankLib\\.local",
-      "message": "Failed to retrieve information about 'UiPath.UIAutomation.Activities' from remote source 'https://www.myget.org/F/TestAlinaFeed/api/v2/FindPackagesById()?id='UiPath.UIAutomation.Activities'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath.UIAutomation.Activities"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Alina.Capota\\OneDrive - UiPath\\Documents\\UiPath\\UiBankLib\\.local",
-      "message": "Failed to retrieve information about 'UiPath.System.Activities.Runtime.Legacy' from remote source 'https://www.myget.org/F/TestAlinaFeed/api/v2/FindPackagesById()?id='UiPath.System.Activities.Runtime.Legacy'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath.System.Activities.Runtime.Legacy"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Alina.Capota\\OneDrive - UiPath\\Documents\\UiPath\\UiBankLib\\.local",
-      "message": "Failed to retrieve information about 'UiPath.System.Activities.Runtime.Legacy' from remote source 'https://www.myget.org/F/TestAlinaFeed/api/v2/FindPackagesById()?id='UiPath.System.Activities.Runtime.Legacy'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath.System.Activities.Runtime.Legacy"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Alina.Capota\\OneDrive - UiPath\\Documents\\UiPath\\UiBankLib\\.local",
-      "message": "Failed to retrieve information about 'UiPath.UIAutomation.Activities.Runtime' from remote source 'https://www.myget.org/F/TestAlinaFeed/api/v2/FindPackagesById()?id='UiPath.UIAutomation.Activities.Runtime'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath.UIAutomation.Activities.Runtime"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Alina.Capota\\OneDrive - UiPath\\Documents\\UiPath\\UiBankLib\\.local",
-      "message": "Failed to retrieve information about 'UiPath.UIAutomation.Activities.Runtime' from remote source 'https://www.myget.org/F/TestAlinaFeed/api/v2/FindPackagesById()?id='UiPath.UIAutomation.Activities.Runtime'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath.UIAutomation.Activities.Runtime"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Alina.Capota\\OneDrive - UiPath\\Documents\\UiPath\\UiBankLib\\.local",
-      "message": "Failed to retrieve information about 'UiPath' from remote source 'https://www.myget.org/F/TestAlinaFeed/api/v2/FindPackagesById()?id='UiPath'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Alina.Capota\\OneDrive - UiPath\\Documents\\UiPath\\UiBankLib\\.local",
-      "message": "Failed to retrieve information about 'UiPath' from remote source 'https://www.myget.org/F/TestAlinaFeed/api/v2/FindPackagesById()?id='UiPath'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Alina.Capota\\OneDrive - UiPath\\Documents\\UiPath\\UiBankLib\\.local",
-      "message": "Failed to retrieve information about 'UiPath.Vision' from remote source 'https://www.myget.org/F/TestAlinaFeed/api/v2/FindPackagesById()?id='UiPath.Vision'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath.Vision"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Alina.Capota\\OneDrive - UiPath\\Documents\\UiPath\\UiBankLib\\.local",
-      "message": "Failed to retrieve information about 'UiPath.OCR.Contracts' from remote source 'https://www.myget.org/F/TestAlinaFeed/api/v2/FindPackagesById()?id='UiPath.OCR.Contracts'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath.OCR.Contracts"
-    },
-    {
-      "code": "NU1801",
-      "level": "Warning",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Alina.Capota\\OneDrive - UiPath\\Documents\\UiPath\\UiBankLib\\.local",
-      "message": "Failed to retrieve information about 'UiPath.OCR.Activities' from remote source 'https://www.myget.org/F/TestAlinaFeed/api/v2/FindPackagesById()?id='UiPath.OCR.Activities'&semVerLevel=2.0.0'.",
-      "libraryId": "UiPath.OCR.Activities"
-    }
-  ]
+  "logs": []
 }
