@@ -57,14 +57,6 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "TestCase1.xaml",
-      "SortBy": 0,
-      "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [],
-      "ConstantsSectionElementsOrder": null,
-      "AddedNamespaces": null
-    },
-    {
       "Path": "TestCase2.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],

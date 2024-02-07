@@ -49,27 +49,6 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Tests\\ApplyLoanTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "43786f5b-8031-46e1-865f-cd508ee3df7e",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "TestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "97b674c7-9b63-474e-82eb-32c53c6f37f1",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "TestCase1.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "5b7c64f0-95ea-4a7e-a27a-f66553bdd8e6",
-        "testCaseType": "TestCase",
-        "executionTemplateInvokeIsolated": false,
-        "fileName": "TestCase2.xaml"
       }
     ],
     "modernBehavior": true,
